@@ -1,0 +1,7 @@
+Simple events producer requires NSQ to be available at 127.0.0.1:4150.
+It publishes events to 'play-events' queue.
+
+It display current time and published events count each 1000 events.
+
+To install neccesary gems just run bundle install.
+Processor could be started using ./producer.rb command.

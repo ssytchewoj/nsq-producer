@@ -7,7 +7,7 @@ class Generator
 		@acc = Random.rand(intensity)
 		@count = count
 
-		@videos = Array.new(count) { |i| { guid: UUIDTools::UUID.timestamp_create.to_s }.to_json }
+		@videos = Array.new(count) { |i| { video_id: UUIDTools::UUID.timestamp_create.to_s }.to_json }
 	end
 
 	def generate!
